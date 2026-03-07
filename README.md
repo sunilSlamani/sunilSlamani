@@ -1,52 +1,186 @@
-# Hi there, I'm Sunil S. Lamani 
+<!-- ANIMATED DEVELOPER BANNER -->
 
-# 3rd Year B.Tech (CSBS) Student @ VTU Belagavi
-**"Code" = "Create" = "Career" **
+<p align="center">
 
-I am an aspiring **Full Stack Web Developer** passionate about building responsive, scalable web applications. With a background in **Computer Science & Business Systems**, I combine technical expertise with creative problem-solving to develop engaging digital experiences. I'm also interested in web security and performance optimization.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Sunil%20S.%20Lamani&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Web%20Developer%20|%20AI%20Explorer&descAlignY=55"/>
+
+</p>
 
 ---
 
-# Featured Projects
+<!-- TYPING ANIMATION -->
+
+<p align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Web+Developer;AI+%7C+Machine+Learning+Explorer;Building+Smart+Web+Applications;Open+Source+Contributor;Code+Create+Career"/>
+
+</p>
+
+---
+
+#  About Me
+
+->**3rd Year B.Tech (CSBS)** @ VTU Belagavi  
+-> Passionate about **Full Stack Web Development**  
+-> Interested in **Artificial Intelligence & Machine Learning**  
+-> Exploring **Web Security & Performance Optimization**  
+-> Goal: Become a **Top Software Engineer**
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://instagram.com/SunilSLamani1225">
+<img src="https://img.shields.io/badge/Instagram-ff006e?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/sunil-s-lamani-169a7b384">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/sunilSlamani">
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+ **Email:** sunillamani0507@gmail.com
+
+---
+
+#  Tech Stack
+
+### Programming Languages
+
+![C](https://img.shields.io/badge/C-0f2027?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/C++-203a43?style=for-the-badge&logo=cplusplus)
+![Python](https://img.shields.io/badge/Python-2c5364?style=for-the-badge&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-0f2027?style=for-the-badge&logo=javascript)
+
+---
+
+### Web Development
+
+![HTML](https://img.shields.io/badge/HTML5-203a43?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS3-2c5364?style=for-the-badge&logo=css3)
+![React](https://img.shields.io/badge/React-0f2027?style=for-the-badge&logo=react)
+![Node](https://img.shields.io/badge/NodeJS-203a43?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-2c5364?style=for-the-badge&logo=mongodb)
+
+---
+
+### AI / Machine Learning
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
+
+---
+
+#  Featured Projects
 
 ###  AI Crop Disease Detection
-A machine learning project focused on identifying and classifying crop diseases using AI techniques. This project demonstrates my interest in applying technology to solve real-world agricultural problems.
-- **Technologies**: Python, Machine Learning, TensorFlow
-- **Status**: In Development
+
+AI system that detects crop diseases using **Deep Learning CNN models** helping farmers identify plant diseases early.
+
+**Tech Used**
+
+Python  
+TensorFlow  
+Machine Learning  
+Computer Vision
 
 ---
 
-# Technology Stack
+###  Travel-Sati – Smart Ride Booking Platform
 
-## Languages
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-%23ED8B00.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+A **Full Stack Ride Booking Web Application** connecting passengers and drivers with real-time tracking.
 
-## Web Development
-![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%2313AA52.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+**Features**
 
-## AI & ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
+✔ Passenger Dashboard  
+✔ Driver Dashboard  
+✔ Admin Panel  
+✔ Ride Booking System  
+✔ Smart Ride Matching  
+✔ Live Location Map  
 
-###  Certifications
-- **Generative AI Literacy** - FutureSkills Prime (Nasscom/Meity)
-- **Introduction to Python** - Analytics Vidhya
-- **Green Skills & AI** - Edunet Foundation (AICTE/Shell)
+**Tech Stack**
+
+Node.js  
+Express.js  
+MongoDB  
+JavaScript  
+Leaflet Maps
 
 ---
 
-###  Social Media & Contact
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/SunilSLamani1225) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=LinkedIn&logoColor=white)](https://linkedin.com/in/sunil-s-lamani-169a7b384)
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white)](https://github.com/sunilSlamani)
-📧 **Email:** sunillamani0507@gmail.com
+#  GitHub Trophy
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=sunilSlamani&theme=radical&no-frame=true&no-bg=true&margin-w=4"/>
+
+</p>
 
 ---
 
-*"Code is poetry written in logic." — Developer's Wisdom*
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sunilSlamani&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunilSlamani&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sunilSlamani&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sunilSlamani&theme=tokyo-night"/>
+
+</p>
+
+---
+
+#  3D Contribution Snake Animation
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+
+</p>
+
+---
+
+#  Visitor Counter
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=sunilSlamani&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+
+</p>
+
+---
+
+#  Developer Quote
+
+> **"Code is poetry written in logic."**
+
+---
+
+ **If you like my work, give a star to my repositories!**
