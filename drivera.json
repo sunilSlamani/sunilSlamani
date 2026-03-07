@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "lat": 12.90,
+    "lon": 77.50,
+    "available": true
+  },
+  {
+    "id": 2,
+    "lat": 12.92,
+    "lon": 77.48,
+    "available": true
+  },
+  {
+    "id": 3,
+    "lat": 12.85,
+    "lon": 77.55,
+    "available": true
+  }
+]

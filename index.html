@@ -2,28 +2,27 @@
 <html>
 
 <head>
-  <title>Smart Farmer Login</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-  <link rel="manifest" href="manifest.json">
+    <title>TravelSati</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="login-box">
-    <h2>🌾 Smart Farmer Login</h2>
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
-    <button onclick="login()">Login</button>
-  </div>
+    <h1>🚍 TravelSati Last Mile Connectivity</h1>
 
-  <script src="supabase.js"></script>
-  <script src="app.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("service-worker.js");
-    }
-  </script>
+    <div class="card">
+        <h2>Bus Status</h2>
+
+        Speed: <input id="speed" type="number"><br><br>
+        Distance: <input id="distance" type="number"><br><br>
+
+        <button onclick="predictETA()">Predict ETA</button>
+        <button onclick="dispatch()">Dispatch Driver</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
