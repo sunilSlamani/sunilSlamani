@@ -1,0 +1,12 @@
+smart-farmer-app/
+│
+├── index.html        (Login Page)
+├── farmer.html       (Farmer Dashboard)
+├── admin.html        (Admin Panel)
+├── style.css
+├── app.js
+├── supabase.js
+├── tf-model.js
+├── manifest.json
+├── service-worker.js
+└── icons/

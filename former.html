@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Farmer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+
+<body>
+
+  <h2>🌾 Farmer Dashboard</h2>
+
+  <button onclick="logout()">Logout</button>
+
+  <div class="card">
+    <h3>🌦 Weather Prediction</h3>
+    <p>Check live weather above.</p>
+  </div>
+
+  <div class="card">
+    <h3>🌱 Crop Yield AI Prediction</h3>
+    <input type="number" id="rain" placeholder="Rainfall">
+    <input type="number" id="temp" placeholder="Temperature">
+    <button onclick="predict()">Predict</button>
+    <h4 id="result"></h4>
+  </div>
+
+  <script src="model.js"></script>
+  <script>
+    function logout() {
+      localStorage.removeItem("user");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>👨‍💼 Admin Panel</h2>
+
+  <button onclick="logout()">Logout</button>
+
+  <div class="card">
+    <h3>Add Farmer</h3>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="addFarmer()">Add</button>
+  </div>
+
+  <script src="supabase.js"></script>
+  <script>
+    async function addFarmer() {
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      // Check if Supabase is configured (not using default placeholder)
+      if (window.SUPABASE_URL && window.SUPABASE_URL !== "YOUR_SUPABASE_URL") {
+        const { error } = await supabase.from('farmers').insert([
+          { name, email, password, role: "farmer" }
+        ]);
+        if (!error) {
+          alert("Farmer Added Successfully");
+        } else {
+          alert("Error adding farmer: " + error.message);
+        }
+      } else {
+        // Demo mode: store farmer in localStorage
+        let farmers = JSON.parse(localStorage.getItem("farmers") || "[]");
+        farmers.push({ name, email, password, role: "farmer" });
+        localStorage.setItem("farmers", JSON.stringify(farmers));
+        alert("Farmer Added Successfully (Demo Mode)");
+      }
+
+      // Clear input fields
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("password").value = "";
+    }
+
+    function logout() {
+      localStorage.removeItem("user");
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+
+</html>
